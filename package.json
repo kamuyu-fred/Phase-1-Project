@@ -1,0 +1,22 @@
+{
+  "name": "space-city-weather",
+  "version": "1.0.0",
+  "description": "weather app",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamuyu-fred/Phase-1-Project.git"
+  },
+  "keywords": [
+    "weatehr"
+  ],
+  "author": "fred kamuyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamuyu-fred/Phase-1-Project/issues"
+  },
+  "homepage": "https://github.com/kamuyu-fred/Phase-1-Project#readme"
+}
