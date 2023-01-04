@@ -40,7 +40,7 @@ const searchTemperature = () => {
         .then(res => res.json())
         .then(data => displayTemperature(data));
 }
-
+//weather body text
 const setInnerText = (id, text) =>{
     document.getElementById(id).innerText = text;
 }
