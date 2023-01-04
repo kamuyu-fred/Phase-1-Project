@@ -1,15 +1,5 @@
-.mx-auto {
-    font-family: 'Merriweather Sans', sans-serif;
-    text-align: center;
-}
-  
-#locked {
-    visibility: hidden;
-    }
-
-
 body {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+   
     width: 1600px;
     margin: 0 auto;
     background-color: #ff9500;
@@ -18,3 +8,19 @@ body {
     background-image: url(images/bg-image.jpg);
 }
 
+
+.mx-auto {
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+    overflow-Y: scroll;
+  
+}
+  
+#locked {
+    visibility: hidden;
+    }
+
+.login {
+    display: flex;
+    justify-content: center;
+}
