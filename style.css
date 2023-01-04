@@ -10,7 +10,8 @@ body {
 
 
 .mx-auto {
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
     text-align: center;
     overflow-Y: scroll;
   
