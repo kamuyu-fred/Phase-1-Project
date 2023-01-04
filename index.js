@@ -1,4 +1,37 @@
+
 const API_KEY = `9cd0bcd2f17b504f42461dac3d0a5b5f`;
+
+const loginBtn = document.getElementById("loginBtn")
+const usernameInput = document.getElementById("username")
+const passwordInput = document.getElementById("password")
+const login = document.getElementById("login")
+
+// Login Page
+window.addEventListener("load", () => {
+
+    loginBtn.addEventListener("click", () => {
+        const username = usernameInput
+        const password = passwordInput
+
+        if (!username || username == "" && !password || password == "") {
+
+            document.querySelector("locked").addEventListener("click", function () {
+                let p = document.querySelector("locked");
+                let visibility = getComputedStyle(p).visibility;
+                if (visibility == "hidden")
+                    p.style.visibility = "visible";
+                else
+                    p.style.visibility = "hidden";
+            })
+
+        } else {
+            let access = document.getElementById("locked")
+            login.style.visibility = "hidden"
+            access.style.visibility = "visible"
+        }
+    })
+})
+
 
 const searchTemperature = () => {
     const city = document.getElementById('city-name').value;
