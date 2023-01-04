@@ -1,12 +1,12 @@
-
+//API key
 const API_KEY = `9cd0bcd2f17b504f42461dac3d0a5b5f`;
-
+//login form consts
 const loginBtn = document.getElementById("loginBtn")
 const usernameInput = document.getElementById("username")
 const passwordInput = document.getElementById("password")
 const login = document.getElementById("login")
 
-// Login Page
+// Login Form
 window.addEventListener("load", () => {
 
     loginBtn.addEventListener("click", () => {
@@ -32,7 +32,7 @@ window.addEventListener("load", () => {
     })
 })
 
-
+//Weather fetch API code block
 const searchTemperature = () => {
     const city = document.getElementById('city-name').value;
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
