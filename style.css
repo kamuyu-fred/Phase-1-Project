@@ -20,7 +20,9 @@ body {
 #locked {
     visibility: hidden;
     font-family:'Rubik', sans-serif;
-    }
+    font-size: larger;
+    
+}
 
 .login {
     display: flex;
