@@ -16,6 +16,8 @@ Clone this repo to your machine
 
 Change directory to the project folder. cd Phase-1-Project
 
+Run the `npm-install` command in terminal to install any required dependencies
+
 Open it in a text editor of your choice.
 
 
