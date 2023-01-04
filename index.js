@@ -45,7 +45,7 @@ const setInnerText = (id, text) =>{
     document.getElementById(id).innerText = text;
 }
 
-
+//temperature display code block
 const displayTemperature = temperature => {
     console.log(temperature);
     setInnerText('city', temperature.name);
